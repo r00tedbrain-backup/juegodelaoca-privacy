@@ -80,8 +80,10 @@ prácticas aquí descritas.</p>
       redes sociales.</li>
   <li>Solo se guarda lo imprescindible para jugar en red: un <em>apodo</em>, el
       personaje elegido y el estado de la partida.</li>
-  <li>La app <strong>no accede</strong> a tu ubicación, contactos, fotos,
-      micrófono ni cámara.</li>
+  <li>La app <strong>no te pide permiso de ubicación</strong> ni accede a tus
+      contactos, fotos, micrófono o cámara. Ten en cuenta que el proveedor de
+      publicidad sí puede deducir tu <em>zona aproximada</em> a partir de la
+      dirección IP (ver apartado 3.3).</li>
   <li>Los servidores de juego están en la <strong>Unión Europea</strong>
       (Ámsterdam, Países Bajos).</li>
   <li>La app muestra <strong>publicidad</strong>. Puedes aceptar o rechazar los
@@ -127,16 +129,32 @@ lo vean los demás jugadores.</p>
     <td>Para gestionar turnos y reconexiones.</td>
   </tr>
 </table>
-<p>No se registran direcciones IP con fines de perfilado ni se elaboran perfiles
-de usuario con los datos de juego.</p>
+<p><strong>En nuestros servidores de juego</strong> no se registran direcciones
+IP con fines de perfilado ni se elaboran perfiles de usuario con los datos de
+partida. El tratamiento que hace de la IP el proveedor de publicidad se explica
+en el apartado 3.3.</p>
 
 <h3>3.3 Publicidad</h3>
 <p>La app es gratuita y se financia con publicidad de
 <strong>Google AdMob</strong>, que puede incluir anuncios servidos mediante
-mediación de <strong>Unity Ads</strong>. Estos proveedores pueden tratar
-identificadores del dispositivo (IDFA en iOS, Identificador de publicidad en
-Android) y datos de uso del anuncio para mostrar publicidad, medir su
-rendimiento y evitar fraudes.</p>
+mediación de <strong>Unity Ads</strong>. Según la documentación del propio
+Google, su SDK puede tratar:</p>
+<ul>
+  <li><strong>Identificadores del dispositivo</strong> (IDFA en iOS,
+      Identificador de publicidad en Android).</li>
+  <li><strong>Dirección IP</strong>, de la que puede deducir tu
+      <strong>ubicación aproximada</strong> (zona, no posición exacta).</li>
+  <li><strong>Datos de publicidad</strong>: qué anuncios has visto y cuáles has
+      pulsado.</li>
+  <li><strong>Interacción con la app</strong>: aperturas, toques y vídeos
+      vistos, para medir el rendimiento publicitario.</li>
+  <li><strong>Datos de errores y de rendimiento</strong> (registros de fallos,
+      tiempo de arranque, consumo), para diagnóstico y también con fines
+      publicitarios y de analítica.</li>
+</ul>
+<p>Estos datos se usan para mostrar publicidad, medir su rendimiento y evitar
+fraudes. No van asociados a tu identidad: no hay cuenta ni datos personales
+identificativos en esta app.</p>
 <ul>
   <li><strong>Con tu consentimiento</strong>, los anuncios pueden ser
       personalizados (art. 6.1.a RGPD).</li>
